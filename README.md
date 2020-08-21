@@ -3,7 +3,7 @@
 
 ## 项目说明
 
-+ 本项目是[滴水三期视频](https://www.bilibili.com/video/BV1yt41127Cd)的一个课后作业
++ 本项目是[滴水三期视频](https://www.bilibili.com/video/BV1yt41127Cd)的一个课后作业，界面采用纯WIN32API编写，没有使用任何框架。
 
 + 主要功能：
 
