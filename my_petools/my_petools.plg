@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: my_petools - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/resource.res" /d "NDEBUG" "C:\Documents and Settings\lilacrain\桌面\my_petools\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\LILACR~1\LOCALS~1\Temp\RSPDC1.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/my_petools.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\lilacrain\桌面\my_petools\DataDirectoryViewerDlgProc.cpp"
+"C:\Documents and Settings\lilacrain\桌面\my_petools\ImportTableDlgProc.cpp"
+"C:\Documents and Settings\lilacrain\桌面\my_petools\MainDlgProc.cpp"
+"C:\Documents and Settings\lilacrain\桌面\my_petools\my_petools.cpp"
+"C:\Documents and Settings\lilacrain\桌面\my_petools\PEReader.cpp"
+"C:\Documents and Settings\lilacrain\桌面\my_petools\PEViewerDlgProc.cpp"
+"C:\Documents and Settings\lilacrain\桌面\my_petools\SectionViewerDlgProc.cpp"
+"C:\Documents and Settings\lilacrain\桌面\my_petools\Utlis.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LILACR~1\LOCALS~1\Temp\RSPDC1.tmp" 
+Creating temporary file "C:\DOCUME~1\LILACR~1\LOCALS~1\Temp\RSPDC2.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/my_petools.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\lilacrain\桌面\my_petools\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LILACR~1\LOCALS~1\Temp\RSPDC2.tmp" 
+Creating temporary file "C:\DOCUME~1\LILACR~1\LOCALS~1\Temp\RSPDC3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/my_petools.pdb" /machine:I386 /out:"Release/my_petools.exe" 
+".\Release\DataDirectoryViewerDlgProc.obj"
+".\Release\ImportTableDlgProc.obj"
+".\Release\MainDlgProc.obj"
+".\Release\my_petools.obj"
+".\Release\PEReader.obj"
+".\Release\PEViewerDlgProc.obj"
+".\Release\SectionViewerDlgProc.obj"
+".\Release\StdAfx.obj"
+".\Release\Utlis.obj"
+".\Release\resource.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\LILACR~1\LOCALS~1\Temp\RSPDC3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DataDirectoryViewerDlgProc.cpp
+C:\Documents and Settings\lilacrain\桌面\my_petools\DataDirectoryViewerDlgProc.cpp(36) : warning C4101: 'szUserBuff' : unreferenced local variable
+ImportTableDlgProc.cpp
+MainDlgProc.cpp
+my_petools.cpp
+PEReader.cpp
+PEViewerDlgProc.cpp
+C:\Documents and Settings\lilacrain\桌面\my_petools\PEViewerDlgProc.cpp(34) : warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'const int' can equal the given constant
+C:\Documents and Settings\lilacrain\桌面\my_petools\PEViewerDlgProc.cpp(24) : warning C4101: 'szUserBuff' : unreferenced local variable
+SectionViewerDlgProc.cpp
+Utlis.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+my_petools.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
