@@ -9,11 +9,11 @@
 
   1. 遍历当前所有进程及其导入的所有模块（只能遍历32位进程的模块），并列出所有模块的 `ImageBase` 和 `SizeOfImage` 。
 
-     ![看不见图片请爬梯子](https://raw.githubusercontent.com/smallzhong/picgo-pic-bed/master/image-20200821142559202.png)
+     ![看不见图片请爬梯子](https://cdn.jsdelivr.net/gh/smallzhong/picgo-pic-bed@master/image-20200821142559202.png)
 
   2. PE结构查看
 
-     ![看不见图片请爬梯子](https://raw.githubusercontent.com/smallzhong/picgo-pic-bed/master/image-20200821142846647.png)
+     ![看不见图片请爬梯子](https://cdn.jsdelivr.net/gh/smallzhong/picgo-pic-bed@master/image-20200821142846647.png)
 
      由于PETOOLS已经非常强大，我觉得并没有必要做得像PETOOLS那么完善。因此只做了导入表信息的查看，并没有做其他表。文件头也只是列出了几个重要的信息。如果想要完善可以自己加控件。
 
